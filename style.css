@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+
+}  
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(238, 250, 246) ;
+} 
+   
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+   
+   
+
+
+.container2 img{
+    /* border: 2px solid black ; */
+    /* padding: 10px; */
+    width: 100%;
+    background-repeat: no-repeat;
+    object-position: center center;
+    filter: brightness(0.8);
+    /* background-image: url(background.jpg); */
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    
+}
+.navbar-brand img{
+    height: 40px;
+}
+/* .container3{
+    align-items: center;
+    display: flex;
+    margin-top:30px;
+    margin-bottom: 0px;
+    align-content: center; */
+
+/* .con3_box{
+    width: 70%;
+    margin-left: 300px;
+    align-content: center;
+} */
+/* con3_img{
+    width:50%;
+    align-items: right;
+    align-content: center;
+    margin-right: 1000px;
+} */
+ .con3_img{
+    border: 2px solid black;
+    width: 600px;
+    object-fit: fill;
+ }
+ .con3_img img:hover{
+    filter:drop-shadow( 2px 10px 15px brown);
+ }
+
+#recycle{
+    margin: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#garbage{
+    margin: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+.askcont{
+    display: flex;
+    justify-content: center;
+}
+.card-body{
+    display: in;
+}
+
+
+
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.flex p, .project p {
+    font-size: 1.2em;
+    line-height: 1.4;
+    padding: 0 10px;
+    text-align: left;
+    width: 100%;
+}
+#recycle {
+    flex: 1;
+    margin-right: 5px;
+    order: 2;
+    background-color: rgba(19, 217, 180, .2);
+}
+#compost {
+    flex: 1;
+    margin: 0 5px;
+    order: 1;
+    background-color: rgba(19, 217, 180, .35);
+}
+#garbage {
+    flex: 1;
+    margin-left: 5px;
+    order: 3;
+    background-color: rgba(19, 217, 180, .1);
+}
+.italic {
+    font-style: italic;
+    font-size: 16px;
+}
+main img {
+    margin-top: 15px;
+}
+
+/* Resources */
+.cards, .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 350px);
+    grid-gap: 15px;
+    margin-top: 20px;
+}
+.card {
+    padding: 20px 0;
+    text-align: center;
+}
+.card:nth-child(1) {
+    position: relative;
+    background-image: url(../images/ridwell_transparent.png);
+    background-size: cover;
+    background-position: center;
+}
+.card:nth-child(2) {
+    position: relative;
+    background-image: url(../images/1greenplanet.png);
+    background-size: cover;
+    background-position: center;
+}
+.card:nth-child(3) {
+    position: relative;
+    background-image: url(../images/styrofoam.png);
+    background-size: cover;
+    background-position: center;
+}
+.card:nth-child(4) {
+    position: relative;
+    background-image: url(../images/household_waste.png);
+    background-size: cover;
+    background-position: center;
+}
+.card:nth-child(5) {
+    position: relative;
+    background-image: url(../images/freecycle2.png);
+    background-size: cover;
+    background-position: center;
+}
+.card:nth-child(6) {
+    position: relative;
+    background-image: url(../images/recycling_symbol.png);
+    background-size: cover;
+    background-position: center;
+}
+.card p {
+    padding: 0;
+    margin-top: 5px;
+    opacity: 1;
+    text-align: center;
+    width: 75%;
+}
+.card button {
+    width: auto;
+    margin: 15px 0;
+    padding: 0 10px;
+}
+.card button a:link {
+    text-decoration: none;
+}
+
+/* DIY */
+.project {
+    padding: 20px 0;
+    background-color: rgba(255, 136, 41,.5);
+}
+.project:nth-child(2) {
+    position: relative;
+    background-image: url(../images/tshirt_rug.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.project:nth-child(4) {
+    position: relative;
+    background-image: url(../images/cork_wreath.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.project:nth-child(6) {
+    position: relative;
+    background-image: url(../images/rubberband_ball.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.project ul {
+    font-family: 'Eczar', 'Georgia', serif;
+    list-style: inside;
+    text-align: left;
+    margin: 0 10px;
+    font-size: 1.2em;
+    line-height: 1.1;
+    text-indent: -27px;
+    padding-left: 27px;
+}
+.project ul li {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+/* Tips */
+article {
+    flex: 3;
+    margin: 0 15px 15px 0;
+}
+.tip {
+    text-align: center;
+    color: rgb(255, 136, 41);
+    font-family: 'Comfortaa', 'Tahoma', sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-variant: normal;
+    padding-bottom: 0;
+}
+.flex article p {
+    padding-bottom: 15px;
+}
+hr {
+    border-top: 1px solid rgba(255, 136, 41, .5);
+    width: 50%;
+}
+aside {
+    flex: 1;
+    border: solid 1px rgb(255, 136, 41);
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.flex h2 {
+    margin-top: 0;
+}
+aside ul {
+    font-family: 'Eczar', 'Georgia', serif;
+    list-style: inside;
+    text-align: left;
+    margin: 0 10px;
+    font-size: 1.1em;
+    line-height: 1.1;
+    text-indent: -25px;
+    padding-left: 25px;
+}
+aside ul li {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+cite {
+    font-size: 16px;
+}
+aside a:link, aside a:visited, #garbage a:link, #garbage a:visited {
+    color: rgb(255, 136, 41);
+}
+aside a:hover, #garbage a:hover {
+    color: rgb(19, 217, 180);
+}
+.flex aside p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Contact us form */
+form {
+    background-image: url(../images/bottles_background_transparent.png);
+    background-size: cover;
+    background-position: center; 
+    height: 750px;
+    margin: 30px 0;
+    padding: 55px 30px;
+    text-align: center;
+}
+label {
+    font-family: 'Comfortaa', 'Tahoma', sans-serif;
+    text-align: left;
+    font-size: 1.2em;
+    display: block;
+    padding: 10px;
+    background-color: rgb(255, 136, 41);
+    color: rgb(250, 250, 250);
+    border-radius: 5px;
+}
+input, textarea, select {
+    color: rgb(0,0,0);
+    font-family: 'Comfortaa', 'Tahoma', sans-serif;
+    font-size: 1.1em;
+    padding: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+button {
+    /* font-family: 'Eczar', 'Georgia', serif; */
+    font-size: 1.2em;
+    border-radius: 7px;
+    padding: 5px;
+    width: 100px;
+    margin-top: 10px;
+
+   
+    
+}
+
+
